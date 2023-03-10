@@ -2,4 +2,4 @@ FROM ubuntu:latest
 RUN apt update
 RUN apt install python3 -y
 
-COPY yicaosong.py
+COPY yicaosong.py .
